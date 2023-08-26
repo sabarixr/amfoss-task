@@ -1,0 +1,11 @@
+# amfoss-task
+
+## SELF INTRO
+Hello Everyone,<br>
+I'm Sabarinath J, currently doing my 1st semester in CSE AI at Amirthapuri campus. While my early passion for hardware electronics still burns, it's the software side that truly ignites my spirit. Coding something and having it work feels good, apart from solving complex codes that fill me with excitement. This magnetic attraction to coding has guided my academic journey, where conquering challenges and mastering coding , algorithmic shapes not just my career path, but my personal development. With determination, I'm committed to blending hardware with software skill and problem-solving. As I stand on the edge of academia and curiosity, my goal is to translate this dream into meaningful contributions, leaving a notable mark on the world of technology. I know basics of coding and wanting to lean more from everyone and this all made me chose to pursue a course that’s related to AI.
+
+## INTROSPECTION
+### WHY MUST YOU CHOOSE ME?
+I have foundation in HTML, C++, and Python, I find entertaining in dedicating my leisure hours to coding exercises, even as I work to learn more about what I am doing even though complex programs are hard for me. My enthusiasm to learn is matched only by my rapid absorption of new ideas, with a good determination to conquer any task before me. The satisfaction of unraveling the inner workings of systems through lines of code fuels my unquenchable thirst for knowledge in this field. I'm humbly aware that I might not be the foremost expert, but I believe I have a great determination on my topic of interest, and I assure you, I'm eager to accelerate my learning journey. I hold a profound belief that my alignment with amfoss will be symbiotic. The prospect of understanding the base excites me, as the club’s teachings and my goal overlay, I am sure about giving it my all. While I may not possess absolute mastery, I am full of desire to grow and evolve. Having the chance to Join the club wouldn't be just an opportunity for me, it would be a pact, a commitment to not the trust placed in me down. I am confident that my presence would be a valuable addition to the team, harmonizing seamlessly with the club's aspirations, I promise to give it my all-time best.
+### WHAT'S YOUR PLAN FOR THE NEXT 6 MONTHS?
+  
