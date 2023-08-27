@@ -16,4 +16,4 @@ It’s a fantastic requirement idea focusing not just on testing skills but chec
 
 **Task**|**Task Name**|**Status**|**Link**
 --------------|---------------|---------------|---------------
-Intro|Creating Github Respitory & Intro|completed|[=>]()
+Intro|Creating Github Respitory & Intro|completed|[->](https://github.com/sabarixr/amfoss-task)
