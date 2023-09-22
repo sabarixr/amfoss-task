@@ -18,7 +18,7 @@ It’s a fantastic requirement idea focusing not just on testing skills but chec
 --------------|---------------|---------------|---------------
 Intro|Creating Github Respitory & Intro|Completed|[->](https://github.com/sabarixr/amfoss-task)
 Task00|Installing Ubuntu|Completed|[->](https://github.com/sabarixr/amfoss-task/blob/main/Task%2000/readme.md)
-Task01|Terminal Wizard|Complete|[->]()
+Task01|Terminal Wizard|Complete|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2001/codes)
 Task02|Lessgo Hugo|Complete|[->]()
 Task03|Hello, World!|InComplete|[->]()
 Task04|Competitive Programming|InComplete|[->]()
