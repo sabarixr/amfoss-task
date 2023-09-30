@@ -1,0 +1,97 @@
+@font-face{
+  font-family: myfont1;
+  src: url(font1.ttf);
+}
+@font-face{
+  font-family: my-font2;
+  src: url(Astone.ttf);
+}
+body {
+   width: 335px;
+   height: 485px;
+   overflow: hidden;
+   background-image: url(gif/bg1.png);
+}
+
+.container {
+  padding: 15px;
+
+}
+
+
+.input-container {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+#weatherInfo {
+  margin-top: 10px;
+  max-height: 350px; 
+  size: 25px;
+  overflow-y: auto;
+  text-align: center;
+  color: black;
+}
+
+#location {
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  color: #92A4B1;
+  font-family:  myfont1;
+}
+#temperature {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+#humidity{
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+#weather{
+  font-size: 22px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+ 
+
+}
+#weatherDescription {
+  font-size: 18px;
+  text-align: center;
+  color: #fefeff;
+  font-family: my-font2;
+}
+#greetingMessage {
+  font-size: 30px;
+  font-family:  myfont1;
+  margin-top: 12px;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  color: #1E2025;
+}
