@@ -26,7 +26,7 @@ Task05|Hypertext Mockup Language|Completed|[->](https://github.com/sabarixr/amfo
 Task06|Cricket Vault|Completed|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2006)
 Task07|AK-47℃|Completed|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2007)
 Task08|Poke-Search!|Completed|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2008)
-Task09|GeoQuest|AlmostComplete|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2009)
+Task09|GeoQuest|Completed with mirror issues|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2009)
 Task10|RuskOS|InComplete|[->]()
 Task11|TinkerCAD|Completed|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2011)
 Task12|Godot|InComplete|[->]()
