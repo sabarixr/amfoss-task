@@ -54,17 +54,17 @@ class SearchWindow(QWidget):
         self.captured_pokemon_list = []
         self.current_pokemon_index = 0
 
-        self.dialog = QDialog(self)  # Create the dialog only once
+        self.dialog = QDialog(self) 
         self.dialog.setWindowTitle("Captured Pokemon List")
         self.dialog.setGeometry(100, 100, 400, 300)
-        self.dialog.hide()  # Hide the dialog initially
+        self.dialog.hide() 
 
         layout = QVBoxLayout()
 
-        self.label = QLabel(self.dialog)  # Instance variable for the Pokémon name
+        self.label = QLabel(self.dialog) 
         layout.addWidget(self.label)
 
-        self.image_label_display = QLabel(self.dialog)  # Instance variable for the Pokémon image
+        self.image_label_display = QLabel(self.dialog) 
         layout.addWidget(self.image_label_display)
 
         # Navigation buttons
@@ -167,7 +167,7 @@ class SearchWindow(QWidget):
 
         image_path = captured_pokemon['image_path']
         pixmap = QPixmap(image_path)
-        pixmap = pixmap.scaledToWidth(300)  # Adjust the width as needed
+        pixmap = pixmap.scaledToWidth(300) 
         self.image_label_display.setPixmap(pixmap)
         self.label.setText(captured_pokemon['name'])
 
@@ -179,8 +179,9 @@ class SearchWindow(QWidget):
         self.current_pokemon_index += 1
         self.display_captured_pokemon()
 
-    # 3 #
-    # Display all the Pokémon captured with their respective names using a new window.
+   # i may made the code a little complicated as i google the problems i face at a specific time and corrected that  part...
+   # i needed to learn more about file reading stuffs in python to make the third function work i am speaking about the display button so i used list but the image will get 
+   # dowloaded anyway
 
 
 if __name__ == "__main__":
