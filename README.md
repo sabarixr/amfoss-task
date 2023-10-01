@@ -1,4 +1,4 @@
-# amfoss-task
+ # amfoss-task
 
 ## SELF INTRO
 Hello Everyone,<br>
@@ -33,3 +33,5 @@ Task12|Godot|InComplete|[->]()
 Task13|Vim|Completed|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2013)
 Task14|Bandit|Completed|[->](https://github.com/sabarixr/amfoss-task/tree/main/Task%2014)
 Task15|Project Euler|InComplete|[->]()
+
+### I am terribly sorry  for not pushing readme.md through terminal as i thought it would be to push codes and stuffs through terminal. Hope it wont take as a negative point. i corrected minor error by editing it directly in github as my computer had some issues with screen broken. so yeah in the mean time of repairing that i updated some errors in github sorry.

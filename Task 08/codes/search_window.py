@@ -1,4 +1,5 @@
 import json
+import os
 
 from PySide6.QtGui import QPixmap, QPainter
 from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QTextEdit, QVBoxLayout, QHBoxLayout, QMessageBox,\
@@ -120,25 +121,42 @@ class SearchWindow(QWidget):
         # is really near
 
     def capture_pokemon(self):
+        global sprite_url
         pokemon_name = self.textbox.text()
-        self.captured_pokemon_list.append(
-            {
-                'image': self.image.pixmap().copy(),
-                'name': pokemon_name,
-            }
-        )
+        data = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_name}')
+        if data.status_code == 200:
+            pokemon_data = json.loads(data.text)
+            sprite_url = pokemon_data['sprites']['front_default']
 
-        msg = QMessageBox()
-        msg.resize(400, 200)
-        msg.setWindowTitle("Capture Success")
-        msg.setText(f"You have captured {pokemon_name}!")
-        msg.exec_()
+        if sprite_url:
+            response = requests.get(sprite_url)
+            if response.status_code == 200:
+                if not os.path.exists('captured_pokemon_images'):
+                    os.makedirs('captured_pokemon_images')
+
+                image_path = f'captured_pokemon_images/{pokemon_name}.png'
+
+                with open(image_path, 'wb') as image_file:
+                    image_file.write(response.content)
+
+                self.captured_pokemon_list.append(
+                    {
+                        'image_path': image_path,
+                        'name': pokemon_name,
+                    }
+                )
+
+                msg = QMessageBox()
+                msg.resize(400, 200)
+                msg.setWindowTitle("Capture Success")
+                msg.setText(f"You have captured {pokemon_name}!")
+                msg.exec_()
 
     def display_captured_pokemon(self):
         if not self.captured_pokemon_list:
             return
 
-        self.dialog.show()  # Show the dialog when "Display" button is clicked
+        self.dialog.show()
 
         if self.current_pokemon_index < 0:
             self.current_pokemon_index = len(self.captured_pokemon_list) - 1
@@ -147,7 +165,10 @@ class SearchWindow(QWidget):
 
         captured_pokemon = self.captured_pokemon_list[self.current_pokemon_index]
 
-        self.image_label_display.setPixmap(captured_pokemon['image'])
+        image_path = captured_pokemon['image_path']
+        pixmap = QPixmap(image_path)
+        pixmap = pixmap.scaledToWidth(300)  # Adjust the width as needed
+        self.image_label_display.setPixmap(pixmap)
         self.label.setText(captured_pokemon['name'])
 
     def prev_pokemon(self):
